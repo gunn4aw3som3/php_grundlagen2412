@@ -1,0 +1,128 @@
+<?php
+
+// -----------------------------------------------
+// 1. GRUNDLAGEN: Variablen definieren und ausgeben
+// -----------------------------------------------
+
+// Aufgabe 1:
+$vorname = "sven";
+echo "Mein Vorname ist: $sven<br>";
+
+
+// Aufgabe 2:
+$text = "Hallo Welt";
+$zahl = 42;
+$istAktiv = true;
+
+echo "$text<br>";
+echo "$zahl<br>";
+echo "$istAktiv<br>"; // Gibt "1" aus, weil true als 1 dargestellt wird
+
+
+// -----------------------------------------------
+// 2. VARIABLENNAMEN UND KONVENTIONEN
+// -----------------------------------------------
+
+// Aufgabe 1:
+// Kommentiere die ungültigen mit // aus.
+// $1name = "";       // Ungültig: Variablen dürfen nicht mit Zahl beginnen
+$_name = "";          // Gültig
+$Name = "";           // Gültig
+$straße = "";         // Gültig, aber Umlaute vermeiden (besser: $strasse)
+// $my -var = "";     // Ungültig: Leerzeichen und Minuszeichen nicht erlaubt
+$userName = "";       // Gültig
+
+// Aufgabe 2:
+$benutzer_name = ""; // Snake Case
+
+// Aufgabe 3:
+$benutzerName = "";  // Camel Case
+
+
+// -----------------------------------------------
+// 3. VARIABLEN ÜBERSCHREIBEN UND ZUWEISUNGEN
+// -----------------------------------------------
+
+// Aufgabe 1:
+$status = "online";
+echo "Status: $status<br>";
+$status = "offline";
+echo "Status: $status<br>";
+
+// Aufgabe 2:
+// Was wird hier ausgegeben? Erkläre das Ergebnis.
+$zahl = 5;
+$zahl = $zahl + 3;
+echo "Neue Zahl: $zahl<br>"; // Ausgabe: 8 (5 + 3)
+
+
+// -----------------------------------------------
+// 4. MATHEMATISCHE OPERATIONEN & KURZSCHREIBUNG
+// -----------------------------------------------
+
+$punktestand = 10;
+
+// Aufgabe 1:
+$punktestand += 5;
+echo "Punktestand +5: $punktestand<br>";
+
+// Aufgabe 2:
+$punktestand -= 3;
+echo "Punktestand -3: $punktestand<br>";
+
+// Aufgabe 3:
+$punktestand *= 2;
+echo "Punktestand *2: $punktestand<br>";
+
+// Aufgabe 4:
+$punktestand /= 2;
+echo "Punktestand /2: $punktestand<br>";
+
+// Aufgabe 5:
+$punktestand++;
+echo "Punktestand ++: $punktestand<br>";
+
+// Aufgabe 6:
+$punktestand--;
+echo "Punktestand --: $punktestand<br>";
+
+
+// -----------------------------------------------
+// 6. VARIABLEN IN BERECHNUNGEN
+// -----------------------------------------------
+
+// Aufgabe 1:
+$preis_pro_stück = 4;
+$anzahl = 3;
+$gesamtpreis = $preis_pro_stück * $anzahl;
+echo "Gesamtpreis (3 Stück): $gesamtpreis €<br>";
+
+// Aufgabe 2:
+$anzahl = 5;
+$gesamtpreis = $preis_pro_stück * $anzahl;
+echo "Gesamtpreis (5 Stück): $gesamtpreis €<br>";
+
+
+// -----------------------------------------------
+// 7. WERTE TAUSCHEN
+// -----------------------------------------------
+
+$a = 5;
+$b = 10;
+$temp = $a;
+$a = $b;
+$b = $temp;
+echo "a: $a, b: $b<br>"; // Ausgabe: a: 10, b: 5
+
+
+// -----------------------------------------------
+// 8. BONUS: GEHALTSBERECHNUNG
+// -----------------------------------------------
+
+$grundgehalt = 2500;
+$abzug = 0.52 * $grundgehalt;
+$nettogehalt = $grundgehalt - $abzug;
+
+echo "Nettogehalt: $nettogehalt €<br>";
+
+?>

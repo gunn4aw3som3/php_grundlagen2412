@@ -1,0 +1,33 @@
+Aufgabe 1 DEFINIEREN und AUSGEBEN
+<?php
+echo "\n";
+$vorname = "Sven";
+echo "Mein Vorname ist: {$vorname}";
+echo "\n"
+?>
+
+Aufgabe 2
+<?php
+echo "\n";
+$text = "Hallo Welt";
+$zahl = 42;
+$istAktiv = true;
+
+echo $text;
+echo "\n";
+echo $zahl;
+echo "\n";
+echo $istAktiv;
+echo "\n"
+?>
+
+Aufgabe 2 VARIABLENNAMEN UND KONVENTIONEN
+
+<?php
+
+
+
+
+
+
+

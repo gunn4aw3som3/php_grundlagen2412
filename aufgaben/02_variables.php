@@ -9,8 +9,6 @@
 
 
 
-
-
 // Aufgabe 2:
 // Erstelle drei Variablen mit unterschiedlichen Datentypen (String, Zahl, Boolean).
 // Gib alle Werte mit echo aus.

@@ -115,3 +115,18 @@ show.php
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/phpstorm
+
+# Dateiergänzung/Karsten/VS_Code
+# VS Code Dateien ignorieren
+.vscode/
+*.code-workspace
+
+# Betriebssystem-Zeug
+.DS_Store
+Thumbs.db
+
+# PHP-spezifisches 
+*.log
+*.cache
+*.env
+
