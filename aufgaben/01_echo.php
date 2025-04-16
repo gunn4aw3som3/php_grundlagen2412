@@ -1,2 +1,2 @@
 <?php
-echo "Manuel";
+// gibt deinen Namen in Terminal aus
