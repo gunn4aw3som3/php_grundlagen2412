@@ -118,6 +118,7 @@ show.php
 
 # Dateiergänzung/Karsten/VS_Code
 # VS Code Dateien ignorieren
+.idea/
 .vscode/
 *.code-workspace
 
